@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+body,
+html {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  position: absolute;
+}
+
+body {
+  background: linear-gradient(#fedfff, #fffcdc);
+  background-size: 10px 3px;
+  min-width: 500px;
+  min-height: 500px;
+}
+
+.boba-drink {
+  height: 300px;
+  width: 200px;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+}
+
+.cup {
+  background: rgba(255, 255, 255, 0.6);
+  height: 150px;
+  width: 100px;
+  border-radius: 35px 35px 25px 25px;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+}
+.cup .logo {
+  color: white;
+  z-index: 100;
+  top: 70px;
+}
+.cup .straw {
+  bottom: 5px;
+  height: 180px;
+  width: 12px;
+  background: black;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 200;
+}
+.cup .lid {
+  z-index: 201;
+  top: -10px;
+  border-radius: 5px 5px 5px 5px;
+  width: 85px;
+  height: 20px;
+  background-image: linear-gradient(white 33%, grey 35%, grey 36%, white 40%, white 80%, grey 35%, white);
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.cup .handle {
+  width: 15px;
+  height: 73px;
+  right: -30px;
+  background: transparent;
+  top: 32px;
+  border-radius: 5px 25px 25px 5px;
+  border: solid 8px rgba(255, 255, 255, 0.6);
+}
+
+.content {
+  animation: drinking 12s linear infinite;
+  background: linear-gradient(tan 80%, #230d02 95%);
+  height: 125px;
+  bottom: 5px;
+  width: 90px;
+  border-radius: 20px 20px 25px 25px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.bobas {
+  bottom: 0px;
+  width: 90px;
+  height: 40px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  border-radius: 0px 0px 25px 25px;
+}
+.bobas .boba {
+  width: 12px;
+  height: 12px;
+  background: #230d02;
+  border-radius: 50%;
+}
+.bobas .boba.one {
+  left: 7px;
+}
+.bobas .boba.two {
+  left: 12px;
+}
+.bobas .boba.three {
+  left: 20px;
+}
+.bobas .boba.four {
+  left: 30px;
+}
+.bobas .boba.five {
+  left: 52px;
+}
+.bobas .boba.six {
+  left: 68px;
+}
+.bobas .boba.seven {
+  left: 70px;
+}
+
+.bottom-row {
+  bottom: 10px;
+  animation: disappear 8s linear infinite;
+}
+
+.top-row {
+  bottom: 22px;
+  animation: disappearLast 8s linear infinite;
+}
+
+.middle-row {
+  bottom: 16px;
+  animation: disappearSecond 8s linear infinite;
+}
+
+ul {
+  top: 350px;
+  list-style: none;
+  position: absolute;
+  width: 400px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+p {
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 4px;
+  position: absolute;
+  color: #333333;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 12px;
+  width: 400px;
+  left: 40%; 
+}
+
+
+@keyframes drinking {
+  from {
+    height: 125px;
+    opacity: 1;
+  }
+  to {
+    height: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes disappear {
+  0%,
+  50% {
+    opacity: 1;
+  }
+  51%,
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes disappearSecond {
+  0%,
+  70% {
+    opacity: 1;
+  }
+  71%,
+  100% {
+    opacity: 0;
+  }
+  0%,
+  50% {
+    bottom: 16px;
+  }
+  51%,
+  100% {
+    bottom: 7px;
+  }
+}
+@keyframes disappearLast {
+  0%,
+  92% {
+    opacity: 1;
+  }
+  93%,
+  100% {
+    opacity: 0;
+  }
+  0%,
+  50% {
+    bottom: 22px;
+  }
+  51%,
+  70% {
+    bottom: 16px;
+  }
+  71%,
+  100% {
+    bottom: 7px;
+  }
+}

@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+body {
+	background-color: white;
+	background-image: url("night.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	max-width: 100%;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 55px;
+	color: #add8e6;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 15px;
+	position: relative;
+	opacity: 60%;
+}
+
+img {
+	max-width: 160vh;
+	margin-top: 0px;
+	margin-left: 80px;
+	position: absolute;
+	z-index: -10;
+	opacity: 80%;
+}
+
+
+.container {
+	z-index: 10;
+	max-width: 100%;
+	max-height: 100vh;
+	margin-bottom: 10px;
+	position: absolute;
+}
+
+
+#runner{
+	background:url("sideway.png");
+	width:120px;
+	height:123px;
+	animation:walk 1s steps(12) infinite, forward 10s linear infinite;
+	margin-top: 450px;
+	z-index: 10;
+	position: relative;
+}
+
+@keyframes walk {
+	0% {
+		background-position: 0px;
+	}
+	100% {
+		background-position: 1403px;
+	}
+}
+
+@keyframes forward {
+	0% {
+		transform:translateX(-10px);
+	}
+	100% {
+		transform: translateX(1300px);
+	}
+}
