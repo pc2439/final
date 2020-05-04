@@ -2,7 +2,7 @@
 
 body {
 	background-color: white;
-	background-image: url("night.png");
+	background-image: url("jiufen.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -11,21 +11,28 @@ body {
 
 h1 {
 	text-align: center;
-	margin-top: 55px;
+	margin-top: 50px;
 	color: #add8e6;
 	font-family: 'Montserrat', sans-serif;
 	letter-spacing: 15px;
 	position: relative;
-	opacity: 60%;
 }
 
 img {
 	max-width: 160vh;
+	max-height: 85vh;
 	margin-top: 0px;
 	margin-left: 80px;
 	position: absolute;
 	z-index: -10;
 	opacity: 80%;
+}
+
+.sky {
+	mix-blend-mode: overlay;
+	max-width: 200vh;
+	z-index: -20;
+	opacity: 30%;
 }
 
 
