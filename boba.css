@@ -118,17 +118,17 @@ body {
 
 .bottom-row {
   bottom: 10px;
-  animation: disappear 8s linear infinite;
+  animation: disappear 12s linear infinite;
 }
 
 .top-row {
   bottom: 22px;
-  animation: disappearLast 8s linear infinite;
+  animation: disappearLast 12s linear infinite;
 }
 
 .middle-row {
   bottom: 16px;
-  animation: disappearSecond 8s linear infinite;
+  animation: disappearSecond 12s linear infinite;
 }
 
 ul {
