@@ -2,7 +2,7 @@
 Hi, this is Patricia Chen. I created this project for [Drawing on the Web](https://cs.nyu.edu/courses/spring20/CSCI-UA.0380-001/)
 :art: :computer: 
 
-[Click](http://i6.cims.nyu.edu/~pc2439/final.html/) to see my final project.
+[Click](http://i6.cims.nyu.edu/~pc2439/drawingtheweb2020/final.html/) to see my final project.
 
 This project is inspired by Taiwan :taiwan:, where I grew up in. 
 
