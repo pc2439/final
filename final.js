@@ -41,7 +41,6 @@ var SkyLanterns = {
         this.h = this.canvas.height;
     },
 
-    // initialize is called on window load
     initialize(){
         this.canvas = document.getElementById("canvas");
         if(!this.canvas.getContext){
