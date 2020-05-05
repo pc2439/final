@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+
+body {
+	font-family: font-family: 'Montserrat', sans-serif;
+    background: url("pingxi.jpg");
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;  
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	letter-spacing: 20px;
+	left: 100px;
+	top: 145px;
+	font-weight: bolder;
+	position: fixed;
+	z-index: 100;
+	display: inline-block;
+}
+
+h2 {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	letter-spacing: 10px;
+	left: 100px;
+	top: 200px;
+	font-weight: bolder;
+	position: fixed;
+	z-index: 100;
+	display: inline-block;
+	opacity: 80%;
+}
+
+h3 {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	letter-spacing: 10px;
+	left: 100px;
+	top: 225px;
+	font-weight: bolder;
+	position: fixed;
+	z-index: 100;
+	display: inline-block;
+	opacity: 80%;
+}
+
+h4 {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	letter-spacing: 10px;
+	left: 100px;
+	top: 250px;
+	font-weight: bolder;
+	position: fixed;
+	z-index: 100;
+	display: inline-block;
+	opacity: 80%;
+}
+
+
+p {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	letter-spacing: 3px;
+	right: 0px;
+	bottom: 40px;
+	font-weight: bolder;
+	position: fixed;
+	z-index: -100;
+	display: inline-block;
+	opacity: 80%;
+}
+
+.container {
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+audio{
+	position:fixed;
+	bottom:0;
+	right:0;
+	mix-blend-mode: lighten;
+	opacity: 40%;
+}
+
+
